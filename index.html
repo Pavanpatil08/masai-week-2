@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Project_W2</title>
+	<div style=" background-color:white;
+		           text-align: center; 
+	                color: black;">
+<input type="text" id= "key"  style="width: 800px;height:60px;border: solid;font-size: 25px;"/><br><br>
+<button onclick="One()" value="1" id="1" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">1<span style="padding-left: 20px;margin-top: top;">! </span></button>
+<button onclick="Two()" value="2" id="2" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">2<span style="padding-left: 10px;margin-top: top;">@</span></button>
+<button onclick="Thr()" value="3" id="3"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">3<span style="padding-left: 10px;margin-top: top;">#</span></button>
+<button onclick="Fou()" value="4" id="4" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">4<span style="padding-left: 10px;margin-top: top;">$</span></button>
+<button onclick="Fiv()" value="5" id="5"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">5<span style="padding-left: 10px;margin-top: top;">%</span></button>
+<button onclick="Six()" value="6" id="6"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">6<span style="padding-left: 10px;margin-top: top;">^</span></button>
+<button onclick="Sev()" value="7" id="7"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">7<span style="padding-left: 10px;margin-top: top;">&</span></button>
+<button onclick="Eig()" value="8" id="8"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">8<span style="padding-left: 10px;margin-top: top;">*</span></button>
+<button onclick="Nin()" value="9" id="9"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">9<span style="padding-left: 10px;margin-top: top;">(</span></button>
+<button onclick="Zer()" value="0" id="0"div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">0<span style="padding-left: 10px;margin-top: top;">)</span></button>
+<button onclick="DEL()" value="DELETE" id="del" div style="width: 80px;height: 60px;font-size:25px;color:white;background-color: black;">DEL</button>
+  <br><br>
+<button onclick="Q()" style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">Q</button>
+<button onclick="W()" value="W" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">W</button>
+<button onclick="E()" value="E" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">E</button>
+<button onclick="R()" value="R" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">R</button>
+<button onclick="T()" value="T" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">T</button>
+<button onclick="Y()" value="Y" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">Y</button>
+<button onclick="U()" value="U" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">U</button> <button onclick="I()" value="I" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">I</button>
+<button onclick="O()" value="O" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">O</button>
+<button onclick="P()" value="P" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">P</button>
+<br><br>
+<button onclick="A()" value="A" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">A</button>
+<button onclick="S()" value="S" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">S</button>
+<button onclick="D()" value="D" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">D</button>
+<button onclick="F()" value="F" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">F</button>	<button onclick="G()" value="G" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">G</button>
+<button onclick="H()" value="H" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">H</button>	<button onclick="J()" value="J" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">J</button>
+<button onclick="K()" value="K" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">K</button>
+<button onclick="L()" value="L" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">L</button>
+<br><br>
+<button onclick="Z()" value="Z" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">Z</button>
+<button onclick="X()" value="X" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">X</button>
+<button onclick="C()" value="C" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">C</button>
+<button onclick="V()" value="B" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">V</button>
+<button onclick="B()" value="B" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">B</button>
+<button onclick="N()" value="N" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">N</button>
+<button onclick="M()" value="M" div style="width: 60px;height: 60px;font-size:25px;color:white;background-color: black;">M</button>
+<button onclick="com()" value=".com" div style="width: 80px;height:60px;font-size:25px;color:white;background-color: black;;">.com</button>
+<br><br>
+<button onclick="Shift" value="Shift" id="shift" div style="width: 400px;height:60px;font-size:25px;background-color: black;color:green;">Shift</button>
+<br><br>
+<button onclick="REV()" value="REV" id="rev" div style="width:150px;height: 60px;border:solid">REV</button>
+<script type="text/javascript">
+        function One(){
+	     document.getElementById('key').value += "1"                        
+        } 
+        function Two(){
+	     document.getElementById('key').value += "2"                        
+        } 
+        function Thr(){
+	     document.getElementById('key').value += "3"                        
+        } 
+        function Fou(){
+	     document.getElementById('key').value += "4"                        
+        } 
+        function Fiv(){
+	     document.getElementById('key').value += "5"                        
+        } 
+        function Six(){
+	     document.getElementById('key').value += "6"                        
+        } 
+        function Sev(){
+	     document.getElementById('key').value += "7"                        
+        } 
+        function Eig(){
+	     document.getElementById('key').value += "8"                        
+        } 
+        function Nin(){
+	     document.getElementById('key').value += "9"                        
+        } 
+        function Zer(){
+	     document.getElementById('key').value += "0"                        
+        } 
+        function Q(){
+	 document.getElementById('key').value += "Q"                        
+        } 
+        function M(){
+	 document.getElementById('key').value += "M"                      
+        } 
+        function com(){
+	 document.getElementById('key').value += ".com"                      
+        }
+        function P(){
+	 document.getElementById('key').value += "P"                    
+        }
+        function N(){
+	 document.getElementById('key').value += "N" 
+        }
+        function B(){
+	 document.getElementById('key').value += "B"
+	    }
+	    function V(){
+	 document.getElementById('key').value += "V"
+	    }
+	    function C(){
+	 document.getElementById('key').value += "C"
+	    }
+	    function X(){
+	 document.getElementById('key').value += "X"
+	    }
+	    function Z(){
+	 document.getElementById('key').value += "Z"
+	    }
+	    function L(){
+	 document.getElementById('key').value += "L"
+	    }
+	    function K(){
+	 document.getElementById('key').value += "K"
+	    }
+	    function J(){
+	 document.getElementById('key').value += "J"
+	    }
+	    function H(){
+	 document.getElementById('key').value += "H"
+	    }
+	    function G(){
+	 document.getElementById('key').value += "G"
+	    }
+	    function F(){
+	 document.getElementById('key').value += "F"
+	    }
+	    function D(){
+	 document.getElementById('key').value += "D"
+	    }
+	    function S(){
+	 document.getElementById('key').value += "S"
+	    }
+	    function A(){
+	 document.getElementById('key').value += "A"
+	    }
+	    function O(){
+	 document.getElementById('key').value += "O"
+	    }
+	    function I(){
+	 document.getElementById('key').value += "I"
+	    }
+	    function U(){
+	 document.getElementById('key').value += "U"
+	    }
+	    function Y(){
+	 document.getElementById('key').value += "Y"
+	    }
+	    function T(){
+	 document.getElementById('key').value += "T"
+	    }
+	    function R(){
+	 document.getElementById('key').value += "R"
+	    }
+	    function E(){
+	 document.getElementById('key').value += "E"
+	    }
+	    function W(){
+	 document.getElementById('key').value += "W"
+	    }
+	    function DEL(){
+	 document.getElementById('key').value = ""
+	    }
+	    function REV(){
+	       var s = document.getElementById('key').value
+	        s = " " 
+	       for(var i=s.length-1; i> =0; i--)
+	       {
+	           return s
+           }
+	       document.getElementById('key').innerHTML = s
+        }
+</script>
+</body>
+</html>
